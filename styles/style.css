@@ -225,6 +225,9 @@ font-weight: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 600px;
+    margin:  0 auto;
+    flex-wrap: wrap;
 }
  .card{
     display: flex;
@@ -246,6 +249,32 @@ font-weight: 300px;
 }
 .card-box img{
     width: 60px;
+}
+
+.product-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    padding: 10px;
+    min-width: 250px;
+    min-height: 200px;
+    justify-content: end;
+    flex: 0 0 250px;
+    margin-right: 50px;
+    margin-bottom: 82px;
+    border-radius: 20px;
+}
+.product-card  img.blue-img {
+    position: absolute;
+    height: 152px;
+    top: -59px;
+    left: 57px;
+}
+.product-info{
+    display: flex;
+    justify-content: space-between;
+
 }
 footer{
     display:flex;
